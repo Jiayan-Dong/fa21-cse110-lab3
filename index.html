@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather Forecast App Second Discussion</title>
+        <link rel="icon" href="weather_icon.ico">
+    </head>
+    <body>
+        <header>
+            <div>Navigation to each day</div>
+            <nav>
+                <ul>
+                    <li><a href="#Meeting-Content">Meeting Content</a></li>
+                    <li><a href="#Video-and-Audio">Video and Audio</a></li>
+                    <li><a href="#Comment">Comment</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Weather Forecast App Second Discussion</h1>
+            <section>
+                <h2 id="Meeting-Content">Discussion of Functionalities</h2>
+                <h3>Meeting Date: 10/3/2021</h3>
+                <h3>Attendance List</h3>
+                <div class="names">
+                <ul>
+                    <li>Anthony</li>
+                    <li>Emily</li>
+                    <li>Luna</li>
+                    <li>Oliver</li>
+                    <li>Scarlett</li>
+                </ul>
+                </div>
+            </section>
+            <section>
+                <h2>Meeting Ageneda and Contents</h2>
+                <h3>Agenda of What the Meeting Will Cover</h3>
+                <div>Functionalities list:</div>
+                <div class="content_list">
+                <ol>
+                    <li><input type="checkbox" /> Weather forecast</li>
+                    <li><input type="checkbox" /> Weather type</li>
+                    <li><input type="checkbox" /> Weather analysis</li>
+                    <li><input type="checkbox" /> <em>Past data comparison</em></li>
+                    <li><input type="checkbox" /> <strong>Suggestion feature</strong></li>   
+                    <li><input type="checkbox" /> Other features</li>
+                </ol>
+                </div>
+                <h3>Things that were Unfinished from Last Meeting</h3>
+                <span>Clarify the group orientation of the program: <strong>Teenagers</strong></span><br>
+                <span>Evaluate the size, cost, and profit of the project: <em>Small projectm, small cost, medium profit</em>.</span>
+                <h3>Things that are New that Need to be Talked About</h3>
+                <img
+                src="weather-fnc.jpg"
+                alt="weather-fnc"
+                width="700"
+                />
+                <p>The meeting discussed that the most basic function of the program is to <strong>display the weather forecast for the next week</strong>.<br>
+                At the same time, it shows professional climate analysis and recent weather trends. The program should also have the<br>
+                ability to compare the weather in the same period in the past.<br>
+                We can get data from 
+                <a href="https://weather.com/"><i>The Weather Channel</i></a>
+                </p>
+                <hr>
+                <img
+                src="weather-rec.jpg"
+                alt="weather-rec"
+                width="700"
+                />
+                <p>The <b>key function of this program</b> is to provide <i>weather-related suggestions</i>: according to the weather of the days,<br>
+                   suggestions are made to the user's life matters: such as whether to sunscreen, how to dress comfortably,<br>
+                   things that are to do and things that are not recommended. At the same time,<br>
+                   it can also provide product recommendations related to the recent weather.</p>
+                <h3>Any Miscellaneous Comments / Questions / Concerns that Anyone Would Like to Bring up</h3>
+                <p>Determine the <b>location and form of work</b> (in person or online).</p>
+                <p>Decide how to <i>charge</i> (free with ads, free with in app purchase, one time charge)</p>
+            </section>
+
+            <section>
+                <h2 id="Video-and-Audio">Meeting Audio and Video</h2>
+                <div>October 3 Audio Record<br>
+                <audio controls>
+                    <source src="audio.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+                </div>
+                <div>October 3 Video Record<br>
+                <video controls width="700">
+                    <source src="video.mp4"
+                            type="video/mp4">
+                    Sorry, your browser doesn't support embedded videos.
+                </div>
+                </video>
+            </section>
+            
+            <section>
+                <h2 id="Comment">Other's Comment on this meeting</h2>
+                <div class="form">
+                    <form action="/action_page.php" method="get" class="form-example">
+                        <fieldset>
+                            <legend>Choose your position</legend>
+                        
+                            <input type="radio" id="boss" name="mood">
+                            <label for="boss">Boss</label><br>
+                        
+                            <input type="radio" id="manager" name="mood">
+                            <label for="manager">Manager</label><br>
+                        
+                            <input type="radio" id="staff" name="mood">
+                            <label for="staff">Staff</label>
+                        </fieldset>
+                        
+                        <label for="date">Comment's date:</label>
+                        <input type="date" id="date" name="today-date"
+                            value="2021-10-4"
+                            min="2021-10-3" max="2022-12-31"><br>
+                            <label for="meeting-rate">Rate of this meeting:</label>
+
+                            <select name="rate" id="meeting-rate">
+                                <option value="">--Please choose an option--</option>
+                                <option value="excellent">Excellent</option>
+                                <option value="good">Good</option>
+                                <option value="normal">Normal</option>
+                                <option value="bad">Bad</option>
+                                <option value="disaster">Disaster</option>
+                            </select><br>
+
+                            <label for="readtime">Time for reading this minute:</label>
+                            <input id="readtime" list="readtimes" />
+                            <datalist id="readtimes">
+                                <option value="0.5 hours">
+                                <option value="1 hour">
+                                <option value="2 hour">
+                            </datalist>
+                            <div>Project relation:</div>
+                            <div>
+                            <input type="checkbox" id="this_project" name="this_project"
+                                    checked>
+                            <label for="this_project">Relate to this project</label>
+                            </div>
+                            
+                            <div>
+                                <input type="checkbox" id="other_project" name="other_project"
+                                        checked>
+                                <label for="other_project">Relate to other project</label>
+                            </div>
+                        <label for="short_comment">Short comment:</label>
+                            <input type="text" id="short_comment" name="short_comment">
+                        <br>
+                        <label for="long_comment">Long comment:</label>
+                        <textarea id="long_comment" name="long_comment" rows="7" cols="42">Comment</textarea><br><br>
+                        
+                        <button class="comment"
+                        type="button">
+                        Save the comment
+                        </button>
+                    </form><br>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <details>
+                <summary>Class information</summary>
+                This page is created by Jiayan Dong for Fall 2021 CSE 110 Lab 2 in UCSD.
+            </details>
+        </footer>
+    </body>
+</html>
