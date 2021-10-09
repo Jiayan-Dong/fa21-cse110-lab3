@@ -31,6 +31,26 @@ h3{
     position: static;
 }
 
+h4, h5 {
+    color : red;
+}
+
+div h4 {
+    color : red;
+}
+
+div > span {
+    background-color: DodgerBlue;
+}
+
+p ~ span {
+    color: red;
+}
+
+li:first-of-type + li {
+    color: blue;
+}
+
 p{
     color : #000000;
 }
@@ -52,7 +72,7 @@ footer{
     color: 	hsl(250, 27%, 20%);
 }
 
-p.pone {
+.pone {
     margin-top: 6%;
     margin-bottom: 6%;
     margin-left: 6%;
@@ -70,6 +90,10 @@ p.pone {
 
     position: relative;
     top: 40px; left: 40px;
+}
+
+#abc {
+    color: 	hsl(250, 27%, 20%);
 }
 
 span.a {
@@ -120,6 +144,10 @@ div.num_grid {
     grid-template-rows: 20px;
 }
 
+* {
+
+}
+
 button:hover {
     color: red;
 }
@@ -138,4 +166,12 @@ a:active {
     body {
         background-color: aliceblue;
     }
+}
+
+* {
+    margin: 0;
+}
+
+a[href$=".com"] {
+    font-style: italic;
 }
