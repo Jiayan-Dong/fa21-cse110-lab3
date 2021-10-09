@@ -1,1 +1,33 @@
 /* CSE 110 Lab 3 Jiayan Dong CSS */
+
+h1{
+    color : rgb(57, 197, 187);
+}
+
+h2{
+    color : rgba(255, 165, 0, 0.9);
+}
+
+h3{
+    color : gray;
+}
+
+p{
+    color : #000000;
+}
+
+strong {
+    color : red;
+}
+
+em{
+    color: #090;
+}
+
+header{
+    color: hsla(250, 27%, 20%, 0.8)
+}
+
+footer{
+    color: 	hsl(250, 27%, 20%)
+}
