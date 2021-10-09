@@ -108,6 +108,7 @@ div.aud {
     left: 800px;
 }
 
+
 div.letter_flexbox {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -121,4 +122,12 @@ div.num_grid {
     grid-column-gap: 5px;
     grid-row-gap: 6px;
     grid-template-rows: 20px;
+}
+
+button:hover {
+    color: red;
+}
+
+a:active {
+    background-color: purple;
 }
