@@ -107,3 +107,11 @@ div.aud {
     position: absolute;
     left: 800px;
 }
+
+button:hover {
+    color: red;
+}
+
+a:active {
+    background-color: purple;
+}
