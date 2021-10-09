@@ -9,6 +9,8 @@ h1{
     font-size: 0.8in;
     border: 2px solid tan;
     line-height: 3cm;
+    margin: 5%, 5%, 5%, 5%;
+    padding: 4%, 4%, 4%, 4%;
 }
 
 h2{
@@ -16,10 +18,12 @@ h2{
     font-size: 6ex;
     border: 0.02em solid tan;
     line-height: 5vw;
+    margin: auto
 }
 
 h3{
     color : darkblue;
+    margin: auto
 }
 
 p{
@@ -40,4 +44,21 @@ header{
 
 footer{
     color: 	hsl(250, 27%, 20%)
+}
+
+.pone {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 6%;
+    margin-right: 6%;
+
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-right: 4%;
+    padding-left: 4%;
+
+    border-style: solid;
+    border-color: tan;
+    border-width: 1px;
+    border-radius: 20px;
 }
