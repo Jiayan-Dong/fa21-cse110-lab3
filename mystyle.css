@@ -107,3 +107,18 @@ div.aud {
     position: absolute;
     left: 800px;
 }
+
+div.letter_flexbox {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse ;
+    flex-grow: 5;
+}
+
+div.num_grid {
+    display: grid;
+    grid-template-rows: 25px;
+    grid-column-gap: 5px;
+    grid-row-gap: 6px;
+    grid-template-rows: 20px;
+}
