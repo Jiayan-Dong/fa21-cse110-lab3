@@ -1,5 +1,9 @@
 /* CSE 110 Lab 3 Jiayan Dong CSS */
 
+body{
+    background-color: Gainsboro
+}
+
 h1{
     color : rgb(57, 197, 187);
 }
@@ -9,7 +13,7 @@ h2{
 }
 
 h3{
-    color : gray;
+    color : darkblue;
 }
 
 p{
