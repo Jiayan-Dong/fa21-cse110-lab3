@@ -27,6 +27,7 @@ h3{
     color : darkblue;
     margin: auto;
     text-align: left;
+    
 }
 
 p{
@@ -50,7 +51,7 @@ footer{
     color: 	hsl(250, 27%, 20%);
 }
 
-.pone {
+p.pone {
     margin-top: 6%;
     margin-bottom: 6%;
     margin-left: 6%;
@@ -65,4 +66,31 @@ footer{
     border-color: tan;
     border-width: 1px;
     border-radius: 20px;
+}
+
+span.a {
+    display: inline;
+    width: 200px;
+    height: 80px;
+    padding: 1px;
+    border: 1px solid green;  
+    background-color: pink;
+}
+
+span.b {
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    padding: 1px;
+    border: 1px solid green;  
+    background-color: pink;
+}
+
+span.c {
+    display: inline;
+    width: 600px;
+    height: 80px;
+    padding: 1px;
+    border: 1px solid green;  
+    background-color: pink;
 }
