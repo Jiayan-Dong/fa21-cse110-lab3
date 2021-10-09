@@ -1,7 +1,7 @@
 /* CSE 110 Lab 3 Jiayan Dong CSS */
 
 body{
-    background-color: Gainsboro
+    background-color: Gainsboro;
 }
 
 h1{
@@ -11,6 +11,7 @@ h1{
     line-height: 3cm;
     margin: 5%, 5%, 5%, 5%;
     padding: 4%, 4%, 4%, 4%;
+    text-align: center;
 }
 
 h2{
@@ -18,12 +19,14 @@ h2{
     font-size: 6ex;
     border: 0.02em solid tan;
     line-height: 5vw;
-    margin: auto
+    margin: auto;
+    text-align: center;
 }
 
 h3{
     color : darkblue;
-    margin: auto
+    margin: auto;
+    text-align: left;
 }
 
 p{
@@ -32,6 +35,7 @@ p{
 
 strong {
     color : red;
+    text-decoration: blue wavy underline;
 }
 
 em{
@@ -39,11 +43,11 @@ em{
 }
 
 header{
-    color: hsla(250, 27%, 20%, 0.8)
+    color: hsla(250, 27%, 20%, 0.8);
 }
 
 footer{
-    color: 	hsl(250, 27%, 20%)
+    color: 	hsl(250, 27%, 20%);
 }
 
 .pone {
