@@ -12,6 +12,9 @@ h1{
     margin: 5%, 5%, 5%, 5%;
     padding: 4%, 4%, 4%, 4%;
     text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
 }
 
 h2{
@@ -21,13 +24,15 @@ h2{
     line-height: 5vw;
     margin: auto;
     text-align: center;
+    position: relative;
+    bottom: 10px; left: 40px;
 }
 
 h3{
     color : darkblue;
     margin: auto;
     text-align: left;
-    
+    position: static;
 }
 
 p{
@@ -66,6 +71,9 @@ p.pone {
     border-color: tan;
     border-width: 1px;
     border-radius: 20px;
+
+    position: relative;
+    top: 40px; left: 40px;
 }
 
 span.a {
@@ -93,4 +101,9 @@ span.c {
     padding: 1px;
     border: 1px solid green;  
     background-color: pink;
+}
+
+div.aud {
+    position: absolute;
+    left: 800px;
 }
