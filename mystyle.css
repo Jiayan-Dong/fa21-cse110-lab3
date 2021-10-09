@@ -6,10 +6,16 @@ body{
 
 h1{
     color : rgb(57, 197, 187);
+    font-size: 0.8in;
+    border: 2px solid tan;
+    line-height: 3cm;
 }
 
 h2{
     color : rgba(255, 165, 0, 0.9);
+    font-size: 6ex;
+    border: 0.02em solid tan;
+    line-height: 5vw;
 }
 
 h3{
