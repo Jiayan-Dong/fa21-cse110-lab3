@@ -1,9 +1,5 @@
 /* CSE 110 Lab 3 Jiayan Dong CSS */
 
-body{
-    background-color: Gainsboro;
-}
-
 h1{
     color : rgb(57, 197, 187);
     font-size: 0.8in;
@@ -130,4 +126,16 @@ button:hover {
 
 a:active {
     background-color: purple;
+}
+
+@media screen and (max-width : 1024px) {
+    body {
+        background-color: beige;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (min-device-width: 480px) {
+    body {
+        background-color: aliceblue;
+    }
 }
